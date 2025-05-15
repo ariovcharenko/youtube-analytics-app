@@ -1,0 +1,20 @@
+[project]
+title = "YouTube Video Analytics" 
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "YouTube Video Analytics" 
+logo = "images/new-logo.png"  
+favicon = "images/star.ico"    
+primaryColor = "#F76430"
+
+[data.youtube-videos]
+type = "csv"
+path = "data/youtube-videos.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
